@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000;
+}
+body {
+    background-color: rgb(226, 182, 86);
+
+}
+.navegacion ul {
+    list-style: none;
+
+}
+
+.navegacion {
+    width: auto;
+    margin: 30px auto;
+    background-color: rgb(134, 132, 7);
+}
+
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: #080101
+    text-decoration: none;
+}
+
+.menu li a:hover {
+        color: rgb(243, 152, 6);
+        transition: all .3s;
+}
+    
